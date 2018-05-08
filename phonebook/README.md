@@ -16,7 +16,7 @@ To complete this tutorial, you need to have the following tools and components i
 * IBM® WebSphere® Application Server, version V7.0, V8.0, V8.5, or V9.0.
 * J2EE Connector (J2C) tools installed
 *	Information about your IMS environment: In this tutorial, your application interacts with an IMS application program in IMS. You need to obtain information such as the host name and port number of IMS Connect and the name of the IMS data store where the transaction runs. Contact your IMS systems administrator for this information. Specifically, you need to perform some setup work in IMS if you want to run the IMS\PhoneBook IMS program. 
-*	A copy of the COBOL file ex01.cbl: You may locate this file in your product installation directory: <installdir>\IBM\SDP70Shared\plugins\com.ibm.j2c.cheatsheet.content_7.0.0\samples\IMS\PhoneBook. If you want to store it locally, you can copy the code from here: ![EX01.cbl](https://www.ibm.com/support/knowledgecenter/SSRTLW_9.6.1/com.ibm.j2c.doc/resources/ex01.html).
+*	A copy of the COBOL file ex01.cbl: You may locate this file in your product installation directory: <installdir>\IBM\SDP70Shared\plugins\com.ibm.j2c.cheatsheet.content_7.0.0\samples\IMS\PhoneBook. If you want to store it locally, you can copy the code from here: [EX01.cbl](https://www.ibm.com/support/knowledgecenter/SSRTLW_9.6.1/com.ibm.j2c.doc/resources/ex01.html).
 *	A clean workspace.
 
 ## Select a resource adapter
