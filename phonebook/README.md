@@ -14,10 +14,10 @@ To use this sample, you must have an application server installed and configured
 To complete this tutorial, you need to have the following tools and components installed: 
 
 * IBM® WebSphere® Application Server, version V7.0, V8.0, V8.5, or V9.0.
-* J2EE Connector (J2C) tools installed
-*	Information about your IMS environment: In this tutorial, your application interacts with an IMS application program in IMS. You need to obtain information such as the host name and port number of IMS Connect and the name of the IMS data store where the transaction runs. Contact your IMS systems administrator for this information. Specifically, you need to perform some setup work in IMS if you want to run the IMS\PhoneBook IMS program. 
-*	A copy of the COBOL file [EX01.cbl](https://github.com/imsdev/ims-java-jee-tm/blob/master/phonebook/EX01.cbl).
-*	A clean workspace.
+* J2EE Connector (J2C) tools installed.
+* Information about your IMS environment: In this tutorial, your application interacts with an IMS application program in IMS. You need to obtain information such as the host name and port number of IMS Connect and the name of the IMS data store where the transaction runs. Contact your IMS systems administrator for this information. Specifically, you need to perform some setup work in IMS if you want to run the IMS\PhoneBook IMS program. 
+* A copy of the COBOL file [EX01.cbl](https://github.com/imsdev/ims-java-jee-tm/blob/master/phonebook/EX01.cbl).
+* A clean workspace.
 
 ## Select a resource adapter
 
