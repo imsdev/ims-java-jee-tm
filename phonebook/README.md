@@ -4,19 +4,19 @@ The following example demonstrates how to use the J2C wizard to build a simple w
 
 This tutorial is divided into several exercises that must be completed in sequence for the tutorial to work properly. This tutorial teaches you how to use the J2C Java™ Bean wizard to create a Java bean that runs a transaction in IMS. While completing the exercises, you will:
 
-* Use the J2C Java bean wizard to submit a transaction to IMS. 
+* Use the J2C Java bean wizard to submit a transaction to IMS.
 * Create a Java method, runPhonebook.java, which accepts a customer number and returns information about the customer.
 
 To use this sample, you must have an application server installed and configured. To verify that a server runtime environment is available, click **Window > Preferences**, expand Server, and then click **Installed Runtimes**. You can use this pane to add, remove, or edit installed server runtime definitions. You can also download and install support for a new server.
 
-## System Requirements 
+## System Requirements
 
 To complete this tutorial, you need to have the following tools and components installed: 
 
 * IBM® WebSphere® Application Server, version V7.0, V8.0, V8.5, or V9.0.
 * J2EE Connector (J2C) tools installed
 *	Information about your IMS environment: In this tutorial, your application interacts with an IMS application program in IMS. You need to obtain information such as the host name and port number of IMS Connect and the name of the IMS data store where the transaction runs. Contact your IMS systems administrator for this information. Specifically, you need to perform some setup work in IMS if you want to run the IMS\PhoneBook IMS program. 
-*	A copy of the COBOL file ex01.cbl: You may locate this file in your product installation directory: <installdir>\IBM\SDP70Shared\plugins\com.ibm.j2c.cheatsheet.content_7.0.0\samples\IMS\PhoneBook. If you want to store it locally, you can copy the code from here: [EX01.cbl](https://www.ibm.com/support/knowledgecenter/SSRTLW_9.6.1/com.ibm.j2c.doc/resources/ex01.html).
+*	A copy of the COBOL file [EX01.cbl](https://github.com/imsdev/ims-java-jee-tm/blob/master/phonebook/EX01.cbl).
 *	A clean workspace.
 
 ## Select a resource adapter
