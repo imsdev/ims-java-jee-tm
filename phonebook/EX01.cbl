@@ -7,7 +7,7 @@ IDENTIFICATION DIVISION.
        *
        *********************************************************************/ 
        *                                                                   */ 
-       * (c) Copyright IBM Corp. 2003                                     */ 
+       * (c) Copyright IBM Corp. 2003                                      */ 
        * All Rights Reserved                                               */ 
        * Licensed Materials - Property of IBM                              */ 
        *                                                                   */ 
@@ -55,4 +55,4 @@ IDENTIFICATION DIVISION.
             02  OUT-ZIP      PICTURE X(7) VALUE SPACES.
             02  OUT-SEGNO    PICTURE X(4) VALUE SPACES.    		
                         
-        PROCEDURE DIVISION.
+        PROCEDURE DIVISION.       
