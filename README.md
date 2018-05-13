@@ -11,7 +11,7 @@ The following tutorials demonstrate how to use the the J2C Java™ Bean wizard t
 In order to complete these tutorials, you should be familiar with:
 
 * J2EE and Java programming.
-* Basic IMS Transaction Manager (IMS TM) concepts.
+* Basic [IMS Transaction Manager](https://www.ibm.com/support/knowledgecenter/SSEPH2_14.1.0/com.ibm.ims14.doc.tmra/topics/tmresoverview.htm) (IMS TM) concepts.
 
 ## Featured Technologies
 
