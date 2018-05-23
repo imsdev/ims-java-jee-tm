@@ -28,6 +28,8 @@ For end-to-end testing and verification, if you choose to import the IMS inbound
 * A sample IMS application that, when run, issues a synchronous callout request. This application specifies to use a pre-defined OTMA destination descriptor (IVPDTOR4) and transaction pipe (IVPPIPE4) for routing and queuing the callout message. All this sample IMS application does is to issue a callout request with a "HELLO FROM IMS" message and waits for a response.
 * IVP jobs and tasks that you can run to set up the required OTMA destination descriptor for routing the callout message and the transaction pipe (a queue) for holding the callout message. 
 
+## Program flow and architecture
+
 The following diagram describes the IMS synchronous callout message flow, by using the OTMA destination descriptor name and TPIPE value (queue name) that are supplied in the IMS callout sample IVP.
 
 ![ims_inbound_flow](./media/ims_inbound_flow.gif)
@@ -41,3 +43,4 @@ To complete this tutorial, you need to have the following tools and components i
 * Information about your IMS environment: In this tutorial, your application interacts with an IMS application program in IMS. You need to obtain information such as the host name and port number of IMS Connect and the name of the IMS data store where the transaction runs. Contact your IMS systems administrator for this information. Specifically, you need to perform some setup work in IMS if you want to run the IMS\PhoneBook IMS program. 
 * A copy of the COBOL file [SYCALOUT.cpy](https://github.com/imsdev/ims-java-jee-tm/blob/master/inbound/sycalout.cpy).
 * A clean workspace.
+
