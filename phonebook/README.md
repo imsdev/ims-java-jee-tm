@@ -163,7 +163,7 @@ IDENTIFICATION DIVISION.
     | Remote integer endian name| Big       |
     | Quote name          | DOUBLE          |
     | Trunc name          | STD             |
-    | nsymbol name        | DBCS            |
+    | Nsymbol name        | DBCS            |
     
     2. Click **Query** to load the data.
     3. A list of data structures from the Ex01.cbl file is shown. Select INPUT-MSG in the Data structures field.
@@ -190,15 +190,15 @@ IDENTIFICATION DIVISION.
     | Remote integer endian name| Big       |
     | Quote name          | DOUBLE          |
     | Trunc name          | STD             |
-    | nsymbol name        | DBCS            |
+    | Nsymbol name        | DBCS            |
     2. Click **Query** to load the data.
-    3. A list of data structures from the Ex01.cbl file is shown. Select OUTPUT-MSG in the Data structures field.
+    3. A list of data structures from the Ex01.cbl file is shown. Select **OUTPUT-MSG** in the **Data structures** field.
     4. Click **Next**.
 9.  In the Saving properties page, select the following values for input type:
-    1. Select Default for Generation Style.
+    1. Select **Default** for Generation Style.
     1. Click **Browse** beside the Project Name and choose the web project IMSPhoneBook.
-    1. In the Package Name field, type sample.ims.data. 
-    1. In the Class Name field, accept the default OUTPUTMSG. Click **Finish**.
+    1. In the **Package Name** field, type sample.ims.data. 
+    1. In the **Class Name** field, accept the default OUTPUTMSG. Click **Finish**.
     1. Leave the Save sessions as Ant script cleared.
 16.	On the Java Method page, click **Finish**.
 17.	In the Binding Details page, ensure that the interactionVerb is SYNC_SEND_RECEIVE(1) to indicate that the interaction with IMS involves a send followed by a receive interaction. 
